@@ -13,7 +13,7 @@ int main(int argc, char* argv[]) {
   int n{int(arguments.size()) - 1};
 
   if (n < 1) {
-    std::cout << "error: you must supply at least one number\n";
+    std::cout << "error: You must supply at least one number\n";
     return 1;
   }
 
